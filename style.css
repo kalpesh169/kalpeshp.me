@@ -65,3 +65,123 @@ nav a{
     transition: all ease-in-out 0.3s;
     background-color: rgb(15, 121, 170);
 }
+@media screen and (max-width:1270px){
+    
+    .imgbx .img img{
+        height: 330px;
+        width: 330px;
+        object-fit: cover;
+        top: 22%;
+        left: 10%;
+    }
+    .data{
+        font-size: 18px;
+        width: 500px;
+        top: 30%;
+        left: 43%;
+        line-height: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;    
+    }
+    .data a{
+        position: relative;
+        top: 17px;
+    }
+}
+@media screen and (max-width:1025px){
+    
+    .imgbx .img img{
+        height: 250px;       
+        width: 250px;
+        object-fit: cover;
+        top: 10%;
+        left: 37%;
+    }
+    .data{
+        font-size: 18px;
+        width: 550px;
+        top: 48%;
+        left: 26vh;
+        line-height: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+    .data a{
+        position: relative;
+        top: 17px;
+    }
+}
+@media screen and (max-width:769px){
+    
+    .imgbx .img img{
+        height: 225px;       
+        width: 225px;
+        object-fit: cover;
+        top: 10%;
+        left: 32%;
+    }
+    .data .content{
+        font-size: 18px;
+        min-width: 160%;
+        top: 45%;
+        left: 50%;
+        line-height: 20px;
+        text-align: center;    
+    }
+    .data a{
+        position: relative;
+        top: 17px;
+    }
+}
+@media screen and (max-width:630px){
+    
+    .imgbx .img img{
+        height: 200px;       
+        width: 200px;
+        object-fit: cover;
+        top: 10%;
+        left: 30%;
+    }
+    .data{
+        font-size: 18px;
+        width: 200px;
+        top: 45%;
+        left: 16%;
+        line-height: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;    
+    }
+    .data a{
+        position: relative;
+        top: 17px;
+    }
+}
+@media screen and (max-width:360px){
+    
+    .imgbx .img img{
+        height: 150px;       
+        width: 150px;
+        object-fit: cover;
+        top: 5%;
+        left: 25%;
+    }
+    .data{
+        font-size: 14px;
+        width: 170px;
+        top: 32%;
+        left: 10%;
+        line-height: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;    
+    }
+    .data h1{
+        font-size: 24px;
+    }
+    .data a{
+        position: relative;
+        top: 17px;
+    }
+}
